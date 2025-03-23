@@ -1,0 +1,6 @@
+*.sublime-workspace
+build/
+*.exe
+*.pdb
+release/
+*.zip

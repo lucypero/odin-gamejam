@@ -1,0 +1,37 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "gamejam - run",
+            "type": "shell",
+            "command": "odin run source/main_desktop -show-debug-messages -define:RAYLIB_SHARED=true",
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "gamejam - build release",
+            "type": "shell",
+            "command": "odin build source/main_desktop -o:speed -define:RAYLIB_SHARED=true -out:build_release/lucycrawl.exe",
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "gamejam - build debug",
+            "type": "shell",
+            "command": "odin build source/main_desktop -show-debug-messages -define:RAYLIB_SHARED=true -debug",
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+    ]
+}

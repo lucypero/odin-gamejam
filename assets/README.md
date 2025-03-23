@@ -1,0 +1,1 @@
+This folder must have a least a single file, otherwise the web build fails. You can also remove the `--preload-file assets` if you do not need the `assets` folder.

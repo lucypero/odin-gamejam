@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppvsdbg",
+            "request": "launch",
+            "preLaunchTask": "gamejam - build debug",
+            "name": "Debug",
+            "program": "${workspaceFolder}/main_desktop.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "cppvsdbg",
+            "request": "launch",
+            "name": "Debug C program",
+            "program": "${workspaceFolder}/c-experiments/main.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/c-experiments"
+        }
+    ]
+}
