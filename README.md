@@ -1,11 +1,14 @@
 # Voidcrawl - A game submission for odin's 7 day gamejam!
 
-[Odin gamejam link](https://itch.io/jam/odin-7-day-jam)
+This game was made in 7 days by Lucy and AttentiveColon for the [Odin 7 day game jam](https://lucypero.itch.io/voidcrawl)
 
-This game was made in 7 days by Lucy and AttentiveColon
+[Play it on the web!](https://lucypero.itch.io/voidcrawl)
 
 ## Screenshots
 
+![main_desktop_EA6UsKpsmf](https://github.com/user-attachments/assets/479cd09c-0e2f-4535-9c8b-af2b63554fae)
+![main_desktop_reTwC6z5JL](https://github.com/user-attachments/assets/c40a0bf2-b2e7-4927-af42-56066bd53b02)
+![main_desktop_i88gJ77sNi](https://github.com/user-attachments/assets/446541ad-9711-4a75-929e-1463ce86b38e)
 
 
 ## Tools used
